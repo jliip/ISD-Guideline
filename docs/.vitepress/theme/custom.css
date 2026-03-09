@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap");
+
+:root {
+  --vp-font-family-base: "Noto Sans TC", "Segoe UI", sans-serif;
+  --vp-font-family-mono: "Cascadia Code", "JetBrains Mono", monospace;
+
+  --vp-c-brand-1: #0b6e4f;
+  --vp-c-brand-2: #0f8f67;
+  --vp-c-brand-3: #3ba37f;
+
+  --vp-c-bg: #f5f7f2;
+  --vp-c-bg-alt: #eef3ea;
+  --vp-c-bg-soft: #e4ecde;
+
+  --vp-c-text-1: #1a2b23;
+  --vp-c-text-2: #2e4a3e;
+
+  --vp-home-hero-name-color: #0b6e4f;
+  --vp-home-hero-image-background-image: radial-gradient(circle at 30% 20%, #93d9c0, #d7eadf 60%, #f5f7f2 100%);
+  --vp-home-hero-image-filter: blur(28px);
+}
+
+.VPNavBarTitle .title {
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.VPHero .name,
+.VPHero .text {
+  font-family: "Space Grotesk", "Noto Sans TC", sans-serif;
+}
+
+.VPFeature {
+  border: 1px solid #cfe0d5;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(26, 43, 35, 0.1);
+}
+
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+}
