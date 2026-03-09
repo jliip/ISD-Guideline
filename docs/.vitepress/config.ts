@@ -112,7 +112,7 @@ export default defineConfig({
   },
   themeConfig: {
     siteTitle: "ISD Guideline",
-    socialLinks: [{ icon: "github", link: "https://github.com" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/jliip/ISD-Guideline" }],
     search: {
       provider: "local"
     }
